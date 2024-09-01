@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+   
+   font-family: "Barlow", sans-serif;
+}
+.Playfair{
+   font-family: "Playfair Display", serif;
+}
+.original_color{
+   color: #2BA7FF;
+}
+.secondary_color{
+   color:#1B3C74;
+}
+.btn{
+   background-color: #2BA7FF;
+   padding: 12px 16px;
+   font-weight: 600;
+   color:white;
+   border-radius: 4px;
+   border: 2px solid #fff;
+   transition: 0.5s;
+}
+.btn:hover{
+   border: 2px solid #2BA7FF;
+   background-color: transparent;
+   color: #1B3C74;
+}
+.team{
+   
+}
+.team_icon{
+   opacity: 0;
+}
+.team:hover .team_icon{
+   opacity: 1;
+   bottom: 32px;
+
+}
