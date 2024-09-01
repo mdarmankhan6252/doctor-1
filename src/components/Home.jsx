@@ -1,5 +1,6 @@
 import Appointment from "./Appointment";
 import Banner from "./Banner";
+import Client from "./Client";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import FAQ from "./FAQ";
@@ -18,6 +19,7 @@ const Home = () => {
          <Appointment/>
          <Team/>
          <FAQ/>
+         <Client/>
       </div>
    );
 };
